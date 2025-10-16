@@ -55,6 +55,7 @@ function table(num) {
 }
 table(5)
 console.log("=============")
+//Pass values to above function
 hello(4, 5)
 
 function btnclicked() { 
