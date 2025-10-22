@@ -1,0 +1,8 @@
+
+| Feature                   | What It Does                             | Key Methods / APIs                                    | Benefits                                     |
+| ------------------------- | ---------------------------------------- | ----------------------------------------------------- | -------------------------------------------- |
+| **Network Interception**  | Mock, block, or modify network calls     | `page.route()`, `route.fulfill()`, `route.continue()` | Test offline, simulate APIs, handle failures |
+| **Emulating Devices**     | Simulate different devices and viewports | `devices['iPhone 13']`, `browser.newContext()`        | Test responsive design, mobile experience    |
+| **Visual Comparisons**    | Compare screenshots to detect UI changes | `expect(page).toHaveScreenshot()`                     | Catch visual regressions                     |
+| **Multi-browser Testing** | Run tests on Chrome, Firefox, Safari     | `chromium`, `firefox`, `webkit`                       | Cross-browser compatibility                  |
+| **Parallel Execution**    | Run multiple tests simultaneously        | `test.describe.parallel`, config `workers`            | Speed up CI/CD test runs                     |
